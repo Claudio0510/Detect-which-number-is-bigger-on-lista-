@@ -1,0 +1,16 @@
+def check_3_number(lista):
+    
+    #Here are going to be append the numbers bigger than 3 numbers 
+    lista_3_Cifras = []
+    
+    for n in lista:
+        if n in range(100,1000):
+            lista_3_Cifras.append(n)
+        else:
+            pass
+        
+    print(lista_3_Cifras)
+
+
+#Here is called the funciton and the numbers that is going to work with the function
+check_3_number([1 ,20 , 50 , 200])
